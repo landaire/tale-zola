@@ -83,6 +83,7 @@
 {% endif %}
 
 {% if image %}
+  <meta property="twitter:image" content="{{ get_url(path=image) | safe }}">
   <meta property="og:image" content="{{ get_url(path=image) | safe }}">
   {% if image_height -%}
     <meta property="og:image:height" content="{{ image_height }}">

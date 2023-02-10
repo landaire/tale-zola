@@ -1,0 +1,11 @@
+pre {
+    padding: 1rem;
+}
+
+pre code {
+    font-size: 85%;
+}
+
+pre[data-linenos] code tbody td:first-of-type {
+    user-select: none;
+}
